@@ -8,3 +8,4 @@ Insert current date or time, in normal and insert mode respectively
 `:set nowrap`  
 `:split`  
 `:vsplit`
+`:syntax on`
