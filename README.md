@@ -4,7 +4,7 @@ Insert current date or time, in normal and insert mode respectively
 `:nnoremap <F5> "=strftime("%Y-%m-%d %H:%M")<CR>P`  
 `:inoremap <F5> <C-R>=strftime("%Y-%m-%d %H:%M")<CR>`
 
-Random useful commands
+Random useful commands  
 `:set nowrap`  
 `:split`  
 `:vsplit`  
