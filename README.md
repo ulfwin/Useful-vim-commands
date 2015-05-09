@@ -9,3 +9,5 @@ Random useful commands
 `:split`  
 `:vsplit`  
 `:syntax on`
+
+One place to store the map commands is the $HOME/.vimrc or $HOME/_vimrc or $VIM/_vimrc file
