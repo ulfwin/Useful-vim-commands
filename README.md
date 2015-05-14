@@ -8,7 +8,8 @@ Random useful commands
 `:set nowrap`  
 `:split`  
 `:vsplit`  
-`:syntax on`
+`:syntax on`  
+`:set ignorecase`  
 
 One place to store the map commands is the $HOME/.vimrc or $HOME/_vimrc or $VIM/_vimrc file  
 `vim $HOME/.vimrc`
