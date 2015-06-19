@@ -13,3 +13,6 @@ Random useful commands
 
 One place to store the map commands is the $HOME/.vimrc or $HOME/_vimrc or $VIM/_vimrc file  
 `vim $HOME/.vimrc`
+
+If command window background is dark, use this  
+`:set background=dark`  
