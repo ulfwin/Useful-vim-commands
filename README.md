@@ -16,3 +16,6 @@ One place to store the map commands is the $HOME/.vimrc or $HOME/_vimrc or $VIM/
 
 If command window background is dark, use this  
 `:set background=dark`  
+
+Write to file even though you forgot "sudo"  
+`:w !sudo tee %`  
