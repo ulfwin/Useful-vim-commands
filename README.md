@@ -19,3 +19,11 @@ If command window background is dark, use this
 
 Write to file even though you forgot "sudo"  
 `:w !sudo tee %`  
+
+Resize windows automatically  
+`CTRL+w =`
+
+Working with tabs  
+`>>` ⁠– indents a line  
+`<<` ⁠– unindents a line  
+`=G` - fix indentation for rest of file  
