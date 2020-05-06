@@ -23,7 +23,13 @@ Write to file even though you forgot "sudo"
 Resize windows automatically  
 `CTRL+w =`
 
-Working with tabs  
+Indentation  
 `>>` ⁠– indents a line  
 `<<` ⁠– unindents a line  
-`=G` - fix indentation for rest of file  
+`=G` – fix indentation for rest of file  
+  
+Working with tabs  
+`:tabnew` creates a new tab  
+`gt` - go to next tab  
+`gT` - go to previous tab  
+`:tabo` - close all other tabs besides the active one  
