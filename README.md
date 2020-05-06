@@ -27,6 +27,7 @@ Indentation
 `>>` ⁠– indents a line  
 `<<` ⁠– unindents a line  
 `=G` – fix indentation for rest of file  
+`:set ts=4 sw=4` – set tabs to 4 spaces
   
 Working with tabs  
 `:tabnew` creates a new tab  
