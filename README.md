@@ -20,7 +20,7 @@ If command window background is dark, use this
 Write to file even though you forgot "sudo"  
 `:w !sudo tee %`  
 
-Resize windows automatically  
+Resize windows automatically (center split line)  
 `CTRL+w =`
 
 Indentation  
@@ -34,3 +34,42 @@ Working with tabs
 `gt` - go to next tab  
 `gT` - go to previous tab  
 `:tabo` - close all other tabs besides the active one  
+
+## How to diff recovered file with original 
+(from https://vi.stackexchange.com/questions/15584/how-do-you-view-the-diff-of-a-swap-file-without-quitting-vim)
+
+from the command line open the file
+
+    vim path/to/file
+
+all the rest of the commands are inside of vim
+
+recover the file 
+
+    r
+
+save the recovered file (if the destination file exists, then overwrite)
+
+    :sav! ~/.recovered
+
+open the original (not-recovered file) in a new window
+
+    :vsplit
+    ctrl-w w
+    :bn
+    e
+
+now we have the recovered file on the left and the un-recovered file on the right
+diff the two files
+
+    :diffthis
+    ctrl-w w
+    :diffthis
+
+now we have a diff of the two files (see man vimdiff)
+resolve any conflicts (see man vimdiff for more info)
+save off any changes made to the unresolved file
+delete the swap file -- :!rm -v path/to/.file.swp
+quit vim
+
+    :q
